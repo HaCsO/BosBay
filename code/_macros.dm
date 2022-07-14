@@ -95,6 +95,8 @@ var/global/const/NEGATIVE_INFINITY = -1#INF // win: -1.#INF, lin: -inf
 
 #define isweakref(A) istype(A, /weakref)
 
+// i am go tests
+
 #define attack_animation(A) if(istype(A)) A.do_attack_animation(src)
 
 #define isopenspace(A) istype(A, /turf/simulated/open)
